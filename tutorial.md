@@ -1,43 +1,39 @@
-Debug the Code
+Install Ubuntu on Virtual Machine
 ======================
-In this activity, you will debug the code to perform the DDoS attack.
 
 
 
 
-<img src= "https://s3-whjr-curriculum-uploads.whjr.online/f50b92bd-501c-43cb-9398-fc0407a391e7.gif" width = "100%" height = "50%">
+In this activity, you will install Ubuntu on the VMware with similar setup and test if DDoS attacks can be performed.
 
 
 
 
-Follow the given steps to complete this activity.
+<img src= "https://s3.amazonaws.com/media-p.slid.es/uploads/1525749/images/10970692/pasted-from-clipboard.png" width = "521" height = "281">
 
 
 
 
-1. Debug the code.
-* Open the file main.py.
-* Debug the below code to fix the bug.
-```
-if worker is not None and worker.is_alive():
-    worker.join(1.0)
-    print(f"Woker Number - {worker.name} Joined!")
-else:
-    workers.remove(worker)
-```
-* Run the except block only when keyboard  interruption and system exit occurs.
+Follow the given steps to complete this activity:
+1. Perform DDOS attack on Ubuntu
 
 
-```
-def isEncrypted(filePath, key):
-  with open(filePath, 'rb') as file:
-    firstLine = file.readline()
-    try:
-      Fernet(key).decrypt(firstLine)
-      return True
-    except Exception as e:
-      return False
-```
+* Download and install Ubuntu Desktop Version on your computer.
+   
+* Create new virtual machine on your system. Select install operating system later.
+   
+* Give the path of the virtual machine.
 
 
+* Select required configurations and properties of the virtual machine.
+* Install the VS code on Ubuntu.
+
+
+* Open the command prompt window for Ubuntu and run the code to perform the DDOS attack.
+
+
+Youtube reference link: `https://www.youtube.com/watch?v=luhHDo4ei34`
+   
 * Save and run the code to check the output.
+
+
